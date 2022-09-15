@@ -1,0 +1,46 @@
+.h2catalogo{
+    @include titulos (center, 65px, default,  map-get($colores , "color-titulos"), "Chau Philomene One", 10px, map-get($colores , "background-quienes-somos" ));
+    margin-top: 140px;
+    &:hover{
+        background-image: linear-gradient(to right, rgba(255, 105, 180, 0.504), pink, rgba(244, 250, 137, 0.742), pink);
+    }
+}
+.h3categoria{
+    @include catalogo (center, 20px, rgb(253, 232, 0), 5px, default);
+    padding-bottom: 50px;
+}
+.h4anime{
+    @include catalogo (center, 24px, #c135a3, 6px, default);
+}
+.h4videojuegos{
+    @include catalogo (center, 24px, #c135a3, 6px, default);
+}
+.ulAnime{
+    @include flex3 (flex, column, flex-end);
+    text-align: center;
+}
+.h4series{
+    @include catalogo (center, 24px, #c135a3, 6px, default);
+}
+.h4peliculas{
+    display: flex;
+    justify-content: center;
+    @include catalogo (center, 24px, #c135a3, 6px, default);
+}
+.list-group-item{
+    &:hover{
+        background-image: linear-gradient(to right, rgba(255, 105, 180, 0.504), pink, rgba(244, 250, 137, 0.742), pink);
+    }
+    border: none;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    cursor: default;
+    border-radius: 4px;
+    box-shadow: 4px 2px 4px  rgba(255, 18, 188, 0.109);
+}
+.list-group-section{
+    @include flex3 (flex, row, space-evenly);
+    margin-right: 90px;
+    margin-bottom: 100px;
+}

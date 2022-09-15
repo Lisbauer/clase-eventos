@@ -1,0 +1,29 @@
+$imagenes: (
+    "imagen-nezuko": url(../imagenes/nezukofondo2.jpg)
+);
+$colores: (
+    "fondo-general": linear-gradient(to top right, rgb(223, 146, 197), rgb(246, 164, 229)),
+    "articulos-fondos": rgb(255, 255, 255),
+    "nav-li": #c135a3,
+    "background-quienes-somos":rgb(247, 190, 229),
+    "parrafos": black,
+    "color-titulos": rgb(255, 63, 214),
+    "background-titulos": rgba(247, 190, 229, 0.563),
+    "box-shadow": rgba(171,119,171,0.95),
+    "agregar-carrito": rgb(253, 245, 95),
+    "letra-agregar-carrito": rgb(8, 5, 5),
+    "letra-agregar-carrito-hover": white,
+    "fondo-agregar-carrito-hover": rgb(137, 117, 4),
+    "bordes-textos": yellow,
+    "fondo-footer": #8a4f76,
+    "botones-gradientes-nav1": #f7bee5,
+    "botones-gradientes-nav2": rgb(249, 147, 215)
+);
+$font-size: (
+    "navbar-li": 17px,
+    "footer-h4": 17px
+);
+$reset: (
+    "margin": 0px,
+    "padding": 0px
+);

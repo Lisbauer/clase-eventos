@@ -1,0 +1,48 @@
+@mixin flex ($direction, $justify, $margin, $width, $bgcolor){
+display: flex;
+flex-direction: $direction;
+justify-content: $justify;
+margin: $margin;
+width: $width;
+background-color: $bgcolor;
+}
+@mixin flex2 ($direction, $justify, $wrap){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}
+@mixin flex3 ($flex, $direction, $justify){
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+@mixin h2index ($font, $size, $align, $spacing, $color, $margtop, $bgcolor){
+    font-family: $font;
+    font-size: $size;
+    text-align: $align;
+    letter-spacing: $spacing;
+    color: $color;
+    margin-top: $margtop;
+    background-color: $bgcolor;
+}
+@mixin margin ($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+@mixin titulos ($center, $font, $cursor, $color, $fonttype, $letter, $bgcolor){
+    text-align: $center;
+    font-size: $font;
+    cursor: $cursor;
+    color: $color;
+    font-family: $fonttype;
+    letter-spacing: $letter;
+    background-color: $bgcolor;
+}
+@mixin catalogo ($center, $font, $color, $letter, $cursor){
+    text-align: $center;
+    font-size: $font;
+    color: $color;
+    letter-spacing: $letter;
+    cursor: $cursor;
+}
